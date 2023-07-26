@@ -25,13 +25,14 @@ const AddShoes = (props) => {
   }
   return (
     <form onSubmit={formSubmitHandler} className={classes["shoe-input"]}>
-      <label>Shoe Name</label>
+      <label>Shoe Name:</label>
       <input ref={nameRef} type="text"></input>
-      <label>Description</label>
+      <label>Description:</label>
       <input ref={desRef} type="text"></input>
-      <label>Price</label>
+      <label>Price:</label>
       <input ref={priceRef} type="number"></input>
-      <p>Quantity Available:</p>
+      <br></br>
+      <label>Enter Quantity Available:</label>
       <label>L</label>
       <input ref={lRef} type="number"></input>
       <label>M</label>
